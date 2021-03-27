@@ -213,6 +213,7 @@ def game_SPT():
         draw_text(("(cách nhau bởi khoảng trắng): "), fontnho, BLACK, screen, 25, 170)
 
         pygame.draw.rect(screen, PINK, (525,400,100,50))
+        draw_text(("RUN!!"), fontnho, WHITE, screen, 548, 413)
 
 
         
@@ -362,6 +363,7 @@ def game_WSPT():
         draw_text(("(cách nhau bởi khoảng trắng): "), fontnho, BLACK, screen, 25, 270)
 
         pygame.draw.rect(screen, PINK, (525,400,100,50))
+        draw_text(("RUN!!"), fontnho, WHITE, screen, 548, 413)
 
 
         
@@ -505,6 +507,7 @@ def game_ERD():
         draw_text(("(cách nhau bởi khoảng trắng): "), fontnho, BLACK, screen, 25, 270)
 
         pygame.draw.rect(screen, PINK, (525,400,100,50))
+        draw_text(("RUN!!"), fontnho, WHITE, screen, 548, 413)
 
 
         
@@ -648,7 +651,7 @@ def game_SPT_d():
         draw_text(("(cách nhau bởi khoảng trắng): "), fontnho, BLACK, screen, 25, 270)
 
         pygame.draw.rect(screen, PINK, (525,400,100,50))
-
+        draw_text(("RUN!!"), fontnho, WHITE, screen, 548, 413)
 
         
         pygame.display.update()
@@ -791,6 +794,7 @@ def game_EDD():
         draw_text(("(cách nhau bởi khoảng trắng): "), fontnho, BLACK, screen, 25, 270)
 
         pygame.draw.rect(screen, PINK, (525,400,100,50))
+        draw_text(("RUN!!"), fontnho, WHITE, screen, 548, 413)
 
 
         
@@ -934,6 +938,7 @@ def game_LPT():
         draw_text(("(cách nhau bởi khoảng trắng): "), fontnho, BLACK, screen, 25, 270)
 
         pygame.draw.rect(screen, PINK, (525,400,100,50))
+        draw_text(("RUN!!"), fontnho, WHITE, screen, 548, 413)
 
 
         
