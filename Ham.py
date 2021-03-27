@@ -128,7 +128,7 @@ def thuat_toan_ERD(n,pj,dj):
         g1 = sum(TGKetThuc)
         g2 = sum(TGKetThuc)/n
         g3 = round(sum(pj)/sum(TGKetThuc)*100,2)
-        g4 = roung(sum(TGKetThuc)/sum(pj),2)
+        g4 = round(sum(TGKetThuc)/sum(pj),2)
         g5 = sum(TGTreHan)/n
 
         e1.configure(state=NORMAL) # make the field editable
