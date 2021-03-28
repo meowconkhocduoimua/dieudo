@@ -354,12 +354,12 @@ def game_WSPT():
 
         # Viết tiêu đề
 
-        draw_text('ERD', fontnho,RED, screen, 25, 10)
+        draw_text('WSPT', fontnho,RED, screen, 25, 10)
         draw_text(("Nhập số lượng công việc: "), fontnho, BLACK, screen, 25, 50)
         draw_text(("Nhập thời gian hoàn thành từng công việc"), fontnho, BLACK, screen, 25, 150)
         draw_text(("(cách nhau bởi khoảng trắng): "), fontnho, BLACK, screen, 25, 170)
 
-        draw_text(("Nhập ngày tới hạn từng công việc"), fontnho, BLACK, screen, 25, 250)
+        draw_text(("Nhập trọng số từng công việc"), fontnho, BLACK, screen, 25, 250)
         draw_text(("(cách nhau bởi khoảng trắng): "), fontnho, BLACK, screen, 25, 270)
 
         pygame.draw.rect(screen, PINK, (525,400,100,50))
@@ -503,7 +503,7 @@ def game_ERD():
         draw_text(("Nhập thời gian hoàn thành từng công việc"), fontnho, BLACK, screen, 25, 150)
         draw_text(("(cách nhau bởi khoảng trắng): "), fontnho, BLACK, screen, 25, 170)
 
-        draw_text(("Nhập trọng số từng công việc"), fontnho, BLACK, screen, 25, 250)
+        draw_text(("Nhập thời gian tới hạn từng công việc"), fontnho, BLACK, screen, 25, 250)
         draw_text(("(cách nhau bởi khoảng trắng): "), fontnho, BLACK, screen, 25, 270)
 
         pygame.draw.rect(screen, PINK, (525,400,100,50))
@@ -647,7 +647,7 @@ def game_SPT_d():
         draw_text(("Nhập thời gian hoàn thành từng công việc"), fontnho, BLACK, screen, 25, 150)
         draw_text(("(cách nhau bởi khoảng trắng): "), fontnho, BLACK, screen, 25, 170)
 
-        draw_text(("Nhập trọng số từng công việc"), fontnho, BLACK, screen, 25, 250)
+        draw_text(("Nhập thời gian tới hạn từng công việc"), fontnho, BLACK, screen, 25, 250)
         draw_text(("(cách nhau bởi khoảng trắng): "), fontnho, BLACK, screen, 25, 270)
 
         pygame.draw.rect(screen, PINK, (525,400,100,50))
@@ -790,7 +790,7 @@ def game_EDD():
         draw_text(("Nhập thời gian hoàn thành từng công việc"), fontnho, BLACK, screen, 25, 150)
         draw_text(("(cách nhau bởi khoảng trắng): "), fontnho, BLACK, screen, 25, 170)
 
-        draw_text(("Nhập trọng số từng công việc"), fontnho, BLACK, screen, 25, 250)
+        draw_text(("Nhập thời gian tới hạn từng công việc"), fontnho, BLACK, screen, 25, 250)
         draw_text(("(cách nhau bởi khoảng trắng): "), fontnho, BLACK, screen, 25, 270)
 
         pygame.draw.rect(screen, PINK, (525,400,100,50))
@@ -934,7 +934,7 @@ def game_LPT():
         draw_text(("Nhập thời gian hoàn thành từng công việc"), fontnho, BLACK, screen, 25, 150)
         draw_text(("(cách nhau bởi khoảng trắng): "), fontnho, BLACK, screen, 25, 170)
 
-        draw_text(("Nhập trọng số từng công việc"), fontnho, BLACK, screen, 25, 250)
+        draw_text(("Nhập thời gian tới hạn từng công việc"), fontnho, BLACK, screen, 25, 250)
         draw_text(("(cách nhau bởi khoảng trắng): "), fontnho, BLACK, screen, 25, 270)
 
         pygame.draw.rect(screen, PINK, (525,400,100,50))
