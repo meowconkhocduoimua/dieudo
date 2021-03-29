@@ -108,7 +108,7 @@ def thuat_toan_ERD(n,pj,dj):
     print("Tổng thời gian các công việc: {}".format(sum(TGKetThuc)))
     print("Tổng thời gian hoàn thành công việc trung bình {}".format(sum(TGKetThuc)/len(pj)))
     print("Độ hữu dụng {}% ".format(round(sum(pj)/sum(TGKetThuc)*100),4))
-    print("Số lượng công việt trung bình {} ".format(sum(TGKetThuc)/sum(pj)))
+    print("Số lượng công việc trung bình {} ".format(sum(TGKetThuc)/sum(pj)))
     print("Độ trễ trung bình {}".format(sum(TGTreHan)/len(pj)))
 
 
@@ -159,7 +159,7 @@ def thuat_toan_ERD(n,pj,dj):
         print("Tổng thời gian các công việc:", g1)
         print("Tổng thời gian hoàn thành công việc trung bình:", g2)
         print("Độ hữu dụng:", g3)
-        print("Số lượng công việt trung bình:",g4)
+        print("Số lượng công việc trung bình:",g4)
         print("Độ trễ trung bình:", g5)
 
     master = Tk()
@@ -171,7 +171,7 @@ def thuat_toan_ERD(n,pj,dj):
     Label(master, text="Tổng thời gian các công việc:").grid(row=1)
     Label(master, text="Tổng thời gian hoàn thành công việc trung bình:").grid(row=2)
     Label(master, text="Độ hữu dụng:").grid(row=3)
-    Label(master, text="Số lượng công việt trung bình:").grid(row=4)
+    Label(master, text="Số lượng công việc trung bình:").grid(row=4)
     Label(master, text="Độ trễ trung bình:").grid(row=5)
 
 
@@ -258,7 +258,7 @@ def thuat_toan_SPT_d(n,pj,dj):
         print("Tổng thời gian các công việc:", g1)
         print("Tổng thời gian hoàn thành công việc trung bình:", g2)
         print("Độ hữu dụng:", g3)
-        print("Số lượng công việt trung bình:",g4)
+        print("Số lượng công việc trung bình:",g4)
         print("Độ trễ trung bình:", g5)
 
     master = Tk()
@@ -270,7 +270,7 @@ def thuat_toan_SPT_d(n,pj,dj):
     Label(master, text="Tổng thời gian các công việc:").grid(row=1)
     Label(master, text="Tổng thời gian hoàn thành công việc trung bình:").grid(row=2)
     Label(master, text="Độ hữu dụng:").grid(row=3)
-    Label(master, text="Số lượng công việt trung bình:").grid(row=4)
+    Label(master, text="Số lượng công việc trung bình:").grid(row=4)
     Label(master, text="Độ trễ trung bình:").grid(row=5)
 
 
@@ -352,7 +352,7 @@ def thuat_toan_EDD(n,pj,dj):
         print("Tổng thời gian các công việc:", g1)
         print("Tổng thời gian hoàn thành công việc trung bình:", g2)
         print("Độ hữu dụng:", g3)
-        print("Số lượng công việt trung bình:",g4)
+        print("Số lượng công việc trung bình:",g4)
         print("Độ trễ trung bình:", g5)
 
     master = Tk()
@@ -364,7 +364,7 @@ def thuat_toan_EDD(n,pj,dj):
     Label(master, text="Tổng thời gian các công việc:").grid(row=1)
     Label(master, text="Tổng thời gian hoàn thành công việc trung bình:").grid(row=2)
     Label(master, text="Độ hữu dụng:").grid(row=3)
-    Label(master, text="Số lượng công việt trung bình:").grid(row=4)
+    Label(master, text="Số lượng công việc trung bình:").grid(row=4)
     Label(master, text="Độ trễ trung bình:").grid(row=5)
 
 
@@ -448,7 +448,7 @@ def thuat_toan_LPT(n,pj,dj):
         print("Tổng thời gian các công việc:", g1)
         print("Tổng thời gian hoàn thành công việc trung bình:", g2)
         print("Độ hữu dụng:", g3)
-        print("Số lượng công việt trung bình:",g4)
+        print("Số lượng công việc trung bình:",g4)
         print("Độ trễ trung bình:", g5)
 
     master = Tk()
@@ -460,7 +460,7 @@ def thuat_toan_LPT(n,pj,dj):
     Label(master, text="Tổng thời gian các công việc:").grid(row=1)
     Label(master, text="Tổng thời gian hoàn thành công việc trung bình:").grid(row=2)
     Label(master, text="Độ hữu dụng:").grid(row=3)
-    Label(master, text="Số lượng công việt trung bình:").grid(row=4)
+    Label(master, text="Số lượng công việc trung bình:").grid(row=4)
     Label(master, text="Độ trễ trung bình:").grid(row=5)
 
 
