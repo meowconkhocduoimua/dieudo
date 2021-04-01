@@ -53,6 +53,21 @@ def gantt(BoSo,pj,Min_c):
 
     plt.show()
     
+def XuatDuLieu(TGKetThuc,TGTreHan,pj,n,name):
+    TongTG = sum(TGKetThuc)
+    TGHoanThanhTB = sum(TGKetThuc)/n
+    DoHuuDung = round(sum(pj)/sum(TGKetThuc)*100,2)
+    SoLuongCVTB = round(sum(TGKetThuc)/sum(pj),2)
+    DoTreTrungBinh = sum(TGTreHan)/n
+    with open('output.txt','a+',encoding='UTF-8') as Xuat:
+        Xuat.write("Bảng kết quả của luật: %s \n"%name)
+        Xuat.write("Tổng thời gian các công việc: {} \n".format(TongTG))
+        Xuat.write("Tổng thời gian hoàn thành công việc trung bình: {} \n".format(TGHoanThanhTB))
+        Xuat.write("Độ hữu dụng: {} \n".format(DoHuuDung))
+        Xuat.write("Số lượng công việc trung bình: {} \n".format(SoLuongCVTB))
+        Xuat.write("Độ trễ trung bình: {} \n".format(DoTreTrungBinh))
+        Xuat.write('-------------------------------\n')  
+
 # Thuật toán WSPT
 def thuat_toan_WSPT(n,pj,wj):
     thutu = [i for i in range(1,n+1)]
